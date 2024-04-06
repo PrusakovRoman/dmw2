@@ -1,0 +1,31 @@
+.log-in-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #fff 0%, #022140 50.66%, #999 100%),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(47, 52, 128) 0%,
+      rgb(34, 39, 115) 81.30369782447815%
+    );
+  background-size: cover;
+}
+.log-in-box {
+  padding: 30px 35px;
+  border-radius: 15px;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  .log-in-box__title {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+  }
+  .log-in-form {
+    span {
+      color: #fff;
+    }
+  }
+}
